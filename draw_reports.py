@@ -57,13 +57,13 @@ def draw_requests(target_dir: str, title: str, res_path: str):
 
 
 draw_requests(
-    target_dir="../2021-highload-dht/src/main/resources/reports/stage2/put_results",
+    target_dir="../2021-highload-dht/src/main/resources/reports/stage2/put_results/wrk",
     title="different implementations of POST-requests comparison",
     res_path="put.html"
 )
 
 draw_requests(
-    target_dir="../2021-highload-dht/src/main/resources/reports/stage2/get_results",
+    target_dir="../2021-highload-dht/src/main/resources/reports/stage2/get_results/wrk",
     title="different implementations of GET-requests comparison",
     res_path="get.html"
 )
